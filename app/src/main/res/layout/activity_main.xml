@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="APLIKASI MENGHITUNG DISKON"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:textAlignment="center"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/diskon"
+        android:textAlignment="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="MULAI"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"
+        android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar"
+        android:layout_marginRight="20dp"
+        android:onClick="persen"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="KELUAR"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"
+        android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar"
+        android:layout_marginRight="20dp"
+        android:onClick="keluar"
+        />
+
+</LinearLayout>
